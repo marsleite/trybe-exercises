@@ -6,17 +6,45 @@
     <style>
       
       h1 {
+        font-family: sans-serif; /* Parte 2 do exercício*/
         size: 65px;
         color: orange;
       }
+
+      body {
+        font-size: 16px; /* Parte 2 do exercício*/
+      }
+
+      p {
+        font-weight: 600;
+        font-size: 3em; /* Parte 2 do exercício*/
+        font-style: italic;
+        text-align: center;
+        text-decoration: underline;
+      }
+
       ul {
         background-color: steelblue;
       }
+
       .element-class {
         background-color: slategray;
-        color: whitesmoke;
+        color: rgb(201, 191, 191);
         border-radius: 10px;
         box-shadow: black 0 0 10px;
+      }
+
+      #list-item01 {
+        background-color: yellow; /* Parte 2 do exercício*/
+        color: black;
+      }
+
+      #list-item02 {
+        background-color: red; /* Parte 2 do exercício*/
+      }
+
+      #list-item03 {
+        background-color: brown; /* Parte 2 do exercício*/
       }
 
     </style>
@@ -27,9 +55,9 @@
   <p class="element-class">Qual é a sua cor favorita ?</p>
   
   <ul class="element-class">
-    <li>Amarelo</li>
-    <li>Vermelho</li>
-    <li>Marrom</li>
+    <li id="list-item01">Amarelo</li>
+    <li id="list-item02">Vermelho</li>
+    <li id="list-item03">Marrom</li>
   </ul>
 </body>
 </html>
