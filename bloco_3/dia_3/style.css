@@ -1,21 +1,13 @@
-.mario {
-    width: 200px;
+h1, p {
+    text-align: center;
 }
-.goomba {
-    width: 200px;
-}
-
-.word{
-    width: 10px;
-    position: absolute;
-    margin-left: 30px;
+li:hover {
+    background-color: chocolate;
 }
 
-.baloon {
-    width: 150px;
-    float: left;
-
+li:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.bowser {
-    width: 200px;
+li{
+    list-style: none;
 }
