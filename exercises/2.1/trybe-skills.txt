@@ -6,3 +6,7 @@ O que eu vou aprender na Trybe:
 - HTML
 - CSS
 - JavaScript
+- Git
+- Github
+- React
+- Node.Js
