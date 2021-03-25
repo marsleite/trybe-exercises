@@ -57,3 +57,26 @@ if (a == 0 || b == 0 || c == 0){
 } else {
   console.log('True')
 }
+
+let pecasXadrez = "Cavalo"
+
+let ucase = pecasXadrez.toLocaleLowerCase();
+
+switch (ucase) {
+  case 'cavalo': 
+    console.log("seu movimento é em L");
+    break;
+  
+  case 'bispo': 
+    console.log("seu movimento é na diagonal");
+    break;
+  
+  case 'rainha' :
+    console.log("Se move para qualquer direção");
+    break;
+
+  case 'torre' :
+    console.log("Se move para os lados e pra frente e para traz");
+    break;
+    default:
+}
