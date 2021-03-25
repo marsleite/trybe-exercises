@@ -34,3 +34,14 @@ if (num1 > num2 && num1 > num3) {
 } else {
   console.log(`O valor ${num3} é maior dentre os 3 números`);
 }
+
+// 4-
+let num = 2;
+
+if (num > 0) {
+  console.log(' Número Positivo')
+} else if (num === 0) {
+  console.log('Zero')
+} else {
+  console.log('Número negativo')
+}
