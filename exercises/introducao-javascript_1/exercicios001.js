@@ -39,9 +39,21 @@ if (num1 > num2 && num1 > num3) {
 let num = 2;
 
 if (num > 0) {
-  console.log(' Número Positivo')
+  console.log(' Número Positivo');
 } else if (num === 0) {
-  console.log('Zero')
+  console.log('Zero');
 } else {
-  console.log('Número negativo')
+  console.log('Número negativo');
+}
+
+//5 -
+
+let a = 10;
+let b = 5;
+let c = 6;
+
+if (a == 0 || b == 0 || c == 0){
+  console.log('false')
+} else {
+  console.log('True')
 }
