@@ -15,3 +15,12 @@ for (i = 0; i < numbers.length; i += 1) {
  soma = soma + numbers[i]  
 }
 console.log(soma)
+console.log("")
+// 3 Questão
+
+let soma3 = 0;
+for (let i = 0; i < numbers.length; i += 1) {
+    soma3 = soma3 + numbers[i]
+}
+let media = soma3 / numbers.length
+console.log(media)
