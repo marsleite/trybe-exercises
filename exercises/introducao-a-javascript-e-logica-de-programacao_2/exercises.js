@@ -33,3 +33,13 @@ if(media > 20){
 } else {
     console.log('Valor menor que 20');
 }
+console.log("");
+
+// 5 Questão
+let maior = numbers[0];
+
+for(i = 0; i < numbers.length; i += 1) {
+    if(numbers[i] > maior) {
+        maior = numbers[i]
+    }
+}
