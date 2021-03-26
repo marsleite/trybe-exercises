@@ -43,3 +43,14 @@ for(i = 0; i < numbers.length; i += 1) {
         maior = numbers[i]
     }
 }
+
+// Questão 6
+let impares = []
+for(i in numbers){
+    if (numbers[i] % 2 > 0){
+        impares.push(numbers[i])
+    }else if (impares === 0 ){
+        console.log('nenhum valor impar encontrado')
+    }
+}
+console.log(`Existe ${impares.length} valor impar no array`);
