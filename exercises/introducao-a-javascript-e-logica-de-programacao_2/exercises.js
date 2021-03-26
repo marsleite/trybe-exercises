@@ -43,6 +43,7 @@ for(i = 0; i < numbers.length; i += 1) {
         maior = numbers[i]
     }
 }
+console.log(`O maior valor é ${maior}`)
 
 // Questão 6
 let impares = []
@@ -54,3 +55,13 @@ for(i in numbers){
     }
 }
 console.log(`Existe ${impares.length} valor impar no array`);
+
+//Questao 7
+
+let menor = numbers[0];
+for(i in numbers) {
+    if(numbers[i] < menor) {
+        menor = numbers[i]
+    }
+}
+console.log(`O menor valor é ${menor}`)
