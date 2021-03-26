@@ -73,3 +73,10 @@ for(let i = 1; i < 26; i += 1){
     valores.push(i)
 }
 console.log(valores)
+
+//Questao 9
+let valoresDiv = []
+for(i in valores) {
+    valoresDiv.push(valores[i] / 2)
+}
+console.log(valoresDiv)
