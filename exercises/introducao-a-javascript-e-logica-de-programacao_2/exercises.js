@@ -80,3 +80,15 @@ for(i in valores) {
     valoresDiv.push(valores[i] / 2)
 }
 console.log(valoresDiv)
+
+//Bonus bubble sort
+
+for(let i = 1; i < numbers.length; i += 1) {
+  for(let j = 0; j < i; j += 1){
+    if(numbers[i] > numbers[j]) {
+    //consertar esse codigo
+    } else {
+      numbers[i] = numbers[j]
+    }
+  }    
+}
