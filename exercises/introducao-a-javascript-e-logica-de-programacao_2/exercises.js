@@ -65,3 +65,11 @@ for(i in numbers) {
     }
 }
 console.log(`O menor valor é ${menor}`)
+
+// Questao 8
+
+let valores =[]
+for(let i = 1; i < 26; i += 1){
+    valores.push(i)
+}
+console.log(valores)
