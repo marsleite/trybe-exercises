@@ -1,6 +1,17 @@
 let n = 5;
 let ast = "*";
+let spc = '';
+let position = n;
 
-for(i = n; i > 0; i -= 1) {
-    console.log(ast.repeat((n + 1) - i))
-}
+for(let i = 0; i < n; i += 1){
+  for(let j = 0; j <= n; j += 1){
+    if (j < position) {
+      spc = spc + ' ';
+    } else {
+      spc = spc + ast
+    }
+  }
+  console.log(spc);
+  spc ='';
+  position -= 1;
+};
