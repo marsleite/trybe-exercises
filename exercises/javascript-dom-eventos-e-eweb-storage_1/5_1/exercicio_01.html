@@ -52,10 +52,10 @@
         6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
         //1 e 5
-        let tags = document.getElementsByTagName('p');
         function tagNames() {
+          let tags = document.getElementsByTagName('p');
           for(let index = 0; index < tags.length; index += 1) {
-            tags[index].innerText = 'Me vejo daqui a 2 anos trilhando o caminho de desenvolvimento de software!'.toUpperCase();;
+            tags[index].innerText = 'Me vejo daqui a 2 anos trilhando o caminho de desenvolvimento de software!'.toUpperCase();
           }
         }
         tagNames();
@@ -65,6 +65,14 @@
         document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
         //4 -
         document.getElementsByClassName('title')[0].innerText = 'Exercício 5.1 - JavaScript';
+        //6 - 
+        function tagNamesConsole() {
+          let tags = document.getElementsByTagName('p');
+          for(let index = 0; index < tags.length; index += 1) {
+            console.log(tags[index].innerText = 'Me vejo daqui a 2 anos trilhando o caminho de desenvolvimento de software!'.toUpperCase());
+          }
+        }
+        tagNamesConsole();
     </script>
   </body>
 </html>
