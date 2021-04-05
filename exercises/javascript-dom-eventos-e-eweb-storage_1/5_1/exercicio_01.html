@@ -51,11 +51,11 @@
         5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
         6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
-        //1 -
+        //1 e 5
+        let tags = document.getElementsByTagName('p');
         function tagNames() {
-          let tags = document.getElementsByTagName('p');
           for(let index = 0; index < tags.length; index += 1) {
-            tags[index].innerText = 'Me vejo daqui a 2 anos trilhando o caminho de desenvolvimento de software!';
+            tags[index].innerText = 'Me vejo daqui a 2 anos trilhando o caminho de desenvolvimento de software!'.toUpperCase();;
           }
         }
         tagNames();
