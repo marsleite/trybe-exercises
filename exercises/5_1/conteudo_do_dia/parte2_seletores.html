@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .paragra {
+                background-color: black;
+                color: blanchedalmond;
+            }
+        </style>
+    </head>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph" class="paragra">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph" class="paragra">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "blue";
+      document.getElementById('page-title').innerHTML = 'StarWars';
+      document.getElementById('second-paragraph').innerHTML = 'Vamos que vamo, goTrybe! aprendendo sempre!';
+      document.getElementById('subtitle').innerHTML = 'Toda a saga do starwars são ótimas!'
+      document.getElementsByClassName('paragra')[0].style.color = "white";
+      document.getElementsByTagName('h4')[0].innerHTML = '#goTrybe'
+    </script>
+  </body>
+</html>
