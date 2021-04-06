@@ -16,7 +16,8 @@
       }
 
       //1 -
-      firstFather.appendChild(createElementsDom('h1')).innerHTML = 'Exercício 5.2 - JavaScript DOM';
+      let firstTitle = firstFather.appendChild(createElementsDom('h1'));
+      firstTitle.innerHTML = 'Exercício 5.2 - JavaScript DOM';
       //2 -
       let div1 = firstFather.appendChild(createElementsDom('div'));
       div1.className = 'main-content';
@@ -53,6 +54,10 @@
         }
       }
       createTitle();
+      // Parte 2 do exercicio
+      //1 -
+      firstTitle.className = 'title';
+
     </script>
   </body>
 </html>
