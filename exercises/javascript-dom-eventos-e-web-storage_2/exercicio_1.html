@@ -36,7 +36,16 @@
       let image1 = div3.appendChild(createElementsDom('img'));
       image1.src = 'https://picsum.photos/200';
       image1.className = 'small-image';
-
+      //8 -
+      let list1 = div4.appendChild(createElementsDom('ul'));
+      function writeItemList() {
+        let ListArray = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+        for(let index = 0; index < ListArray.length; index += 1) {
+          let itemList = list1.appendChild(createElementsDom('li'));
+          itemList.innerHTML = ListArray[index];
+        }
+      }
+      writeItemList();
     </script>
   </body>
 </html>
