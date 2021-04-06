@@ -14,10 +14,15 @@
         let element = document.createElement(el);
         return element;
       }
-      // 1 -
+
+      //1 -
       firstFather.appendChild(createElementsDom('h1')).innerHTML = 'Exercício 5.2 - JavaScript DOM';
       //2 -
-      firstFather.appendChild(createElementsDom('div')).className = 'main-content';
+      let div1 = firstFather.appendChild(createElementsDom('div'));
+      div1.className = 'main-content';
+      //3 -
+      let div2 = div1.appendChild(createElementsDom('div'));
+      div2.className = 'center-content';
       
     </script>
   </body>
