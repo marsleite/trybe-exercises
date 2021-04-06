@@ -8,13 +8,17 @@
   </head>
   <body>
     <script>
+      let firstFather = document.querySelector('body');
+
       function createElementsDom(el) {
         let element = document.createElement(el);
         return element;
       }
+      // 1 -
+      firstFather.appendChild(createElementsDom('h1')).innerHTML = 'Exercício 5.2 - JavaScript DOM';
+      //2 -
+      firstFather.appendChild(createElementsDom('div')).className = 'main-content';
       
-      let firstFather = document.querySelector('body');
-      firstFather.appendChild(createElementsDom('h1')).innerHTML = 'Exercício 5.2 - JavaScript DOM'
     </script>
   </body>
 </html>
