@@ -8,7 +8,13 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      function createElementsDom(el) {
+        let element = document.createElement(el);
+        return element;
+      }
+      
+      let firstFather = document.querySelector('body');
+      firstFather.appendChild(createElementsDom('h1')).innerHTML = 'Exercício 5.2 - JavaScript DOM'
     </script>
   </body>
 </html>
