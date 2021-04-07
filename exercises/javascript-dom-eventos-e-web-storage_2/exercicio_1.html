@@ -48,15 +48,16 @@
       }
       writeItemList();
       //9 -
-      function createTitle() {
-        for(let index = 0; index < 3; index += 1) {
-          let subTitle = div1.appendChild(createElementsDom('h3'));
-        }
-      }
-      createTitle();
+      let subTitle1 = div1.appendChild(createElementsDom('h3'));
+      let subTitle2 = div1.appendChild(createElementsDom('h3'));
+      let subTitle3 = div1.appendChild(createElementsDom('h3'));
+      
       // Parte 2 do exercicio
       //1 -
       firstTitle.className = 'title';
+      //2 -
+      subTitle3.className = 'description';
+      
 
     </script>
   </body>
