@@ -10,7 +10,7 @@ let mainContainer = document.querySelector('.container');
 /*
  1 -Crie uma função que adicione a classe 'tech' ao elemento selecionado; */
  function addClassTech(event) {
-  event.target.className = 'tech';
+  event.target.classList.add('tech');
  }
 /* 1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?*/
 function removeTech() {
