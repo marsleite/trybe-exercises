@@ -10,12 +10,15 @@ let mainContainer = document.querySelector('.container');
 /*
  1 -Crie uma função que adicione a classe 'tech' ao elemento selecionado; */
  function addClassTech(event) {
-  event.target.classList.add('tech');
+  event.target.classList.toggle('tech');
  }
 /* 1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?*/
-function removeTech() {
-  let removeClass = mainContainer.querySelector('.tech');
-  removeClass.classList.remove('tech');
+function setClassTech(event) {
+  const setAtributte = document.querySelectorAll('.tech');
+  for(let index = 0; index < setAtributte.length; index += 1) {
+    setAtributte[index].classList.remove('tech')
+  }
+  event.target.classList.add('tech');
 }
 
 /* Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
@@ -39,5 +42,5 @@ addEventListener('dblclick', resetText);
 // Não precisa passar o parâmetro dentro do addEventListener. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
 // event.target na nossa função retornará o objeto 'divUm'.
-addEventListener('click', addClassTech);
-addEventListener('click', removeTech);
+addEventListener('click', setClassTech);
+
