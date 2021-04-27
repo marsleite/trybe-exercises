@@ -25,3 +25,10 @@ const student1 = {
   
   console.log('Estudante 2');
   listSkills(student2);
+
+  const marcelo = {
+      age: 35,
+      skills: 'Javascript'
+  }
+
+  console.log(Object.keys(marcelo))
